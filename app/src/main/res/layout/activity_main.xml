@@ -1,0 +1,130 @@
+git<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BE93DCDF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Form"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="35sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Emailid"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone number"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/baseline_local_phone_24"
+            android:drawablePadding="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="adders"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:drawablePadding="15dp"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="male"
+                android:layout_weight="0.5"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="female"
+                android:layout_weight="0.5"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="others"
+                android:layout_weight="0.5"
+                android:textSize="20sp"/>
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="check box 1"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="check box 2"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="check box 3"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:textSize="25sp"
+            android:backgroundTint="#3F51B5"/>
+
+        <Button
+            android:id="@+id/Link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Link"
+            android:textSize="25sp"
+            android:backgroundTint="#3F51B5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
